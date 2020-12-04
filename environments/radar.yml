@@ -6,24 +6,24 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-  - bioconductor-rsamtools=1.34.1
-  - bioconductor-genomicfeatures=1.34.8
-  - bioconductor-qvalue=2.14.1
-  - bioconductor-deseq2=1.22.2
-  - r-bh=1.66.0_1
-  - r-doparallel=1.0.11 
-  - r-foreach=1.4.4
-  - r-gplots=3.0.1
-  - r-ggplot2=3.0.0
-  - r-rcolorbrewer=1.1_2
-  - r-rcpp=1.0.4.6
-  - r-rcpparmadillo=0.8.600.0.0
-  - r-tidyverse=1.2.1
-  - r-devtools=2.0.2
+  - bioconductor-rsamtools=1.34.0 #=r351hf484d3e_0
+  - bioconductor-genomicfeatures #=1.34.1=r351_0
+  - bioconductor-qvalue=2.16.0 #=r351_0
+  - bioconductor-deseq2=1.22.1 #=r351hf484d3e_0
+  - r-bh=1.66.0_1 #=r351h6115d3f_0
+  - r-doparallel=1.0.11 #=r351h6115d3f_0
+  - r-foreach=1.4.4 #=r351h6115d3f_0
+  - r-gplots=3.0.1 #=r351h6115d3f_0
+  - r-ggplot2=3.0.0 #=r351h6115d3f_0
+  - r-rcolorbrewer=1.1_2 #=r351h6115d3f_0
+  - r-rcpp=1.0.4.6 #=r35h0357c0b_0
+  - r-rcpparmadillo=0.8.600.0.0 #=r351h29659fb_0
+  - r-tidyverse=1.2.1 #=r351h6115d3f_0
+  - r-devtools=2.0.2 #=r351h6115d3f_0
+  - libgfortran=3.0.0 #=1
   - ipykernel
   - numpy
   - pandas
-  - libgfortran
   - pip
   - pip:
     - rpy2
