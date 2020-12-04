@@ -1,4 +1,4 @@
-name: meRIPseq
+name: exomePeak
 channels:
   - bioconda
   - conda-forge
@@ -205,5 +205,3 @@ dependencies:
   - xz=5.2.4=h14c3975_1001
   - zlib=1.2.11=h516909a_1006
   - zstd=1.4.4=h3b9ef0a_1
-prefix: /rumi/shams/abe/anaconda3/envs/meRIPseq
-
