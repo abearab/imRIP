@@ -1,0 +1,15 @@
+name: radar
+channels:
+  - python
+  - r
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - bioconductor-rsamtools
+  - r-devtools
+  - bioconductor-genomicfeatures
+  - bioconductor-qvalue
+  - bioconductor-deseq2
+prefix: /rumi/shams/abe/anaconda3/envs/radar
+
