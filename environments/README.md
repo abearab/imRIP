@@ -9,10 +9,13 @@ conda env create -f radar.yml
 Then, just open R (in terminal or in Jupyter) and install [RADAR github](https://github.com/scottzijiezhang/RADAR). 
 ```R
 library(devtools)
-install_github("scottzijiezhang/RADAR")
+install_github("scottzijiezhang/RADAR") # or install('/local-path/RADAR')
 ```
 **NOTE:** When it asks to update packages within R just select `None`. 
 
+If `install_github` function doesn’t work, you can download the [RADAR github](https://github.com/scottzijiezhang/RADAR) as zip file. Then, you should unzip that file and use its path to run `install` functino in R. 
+
+___
 Now you can open a jupyter notebook to load RADAR in R. 
 ```bash
 %load_ext rpy2.ipython
