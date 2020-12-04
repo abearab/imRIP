@@ -4,10 +4,25 @@ channels:
   - r
   - bioconda
   - conda-forge
-  - defaults
+  - anaconda
 dependencies:
-  - bioconductor-rsamtools
-  - r-devtools
-  - bioconductor-genomicfeatures
-  - bioconductor-qvalue
-  - bioconductor-deseq2
+  - bioconductor-rsamtools=1.34.1
+  - bioconductor-genomicfeatures=1.34.8
+  - bioconductor-qvalue=2.14.1
+  - bioconductor-deseq2=1.22.2
+  - r-bh=1.66.0_1
+  - r-doparallel=1.0.11 
+  - r-foreach=1.4.4
+  - r-gplots=3.0.1
+  - r-ggplot2=3.0.0
+  - r-rcolorbrewer=1.1_2
+  - r-rcpp=1.0.4.6
+  - r-rcpparmadillo=0.8.600.0.0
+  - r-tidyverse=1.2.1
+  - r-devtools=2.0.2
+  - ipython
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - rpy2
