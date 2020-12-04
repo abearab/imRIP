@@ -11,5 +11,3 @@ dependencies:
   - bioconductor-genomicfeatures
   - bioconductor-qvalue
   - bioconductor-deseq2
-prefix: /rumi/shams/abe/anaconda3/envs/radar
-
