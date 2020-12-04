@@ -3,8 +3,8 @@
 source: [10.1186/s13059-019-1915-9](http://dx.doi.org/10.1186/s13059-019-1915-9)
 
 However, you can simply use my `yml` file to build an stable environment:
-```
-
+```bash
+conda env create -f radar.yml
 ```
 Then, just open R (in terminal or in Jupyter) and install [RADAR github](https://github.com/scottzijiezhang/RADAR). 
 ```R
