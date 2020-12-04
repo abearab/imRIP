@@ -1,4 +1,4 @@
-name: /rumi/shams/abe/anaconda3/envs/imRIP/guitar
+name: guitar
 channels:
   - anaconda
   - python
@@ -239,5 +239,3 @@ dependencies:
     - rpy2==3.3.5
     - toml==0.10.1
     - tzlocal==2.1
-prefix: /rumi/shams/abe/anaconda3/envs/imRIP/guitar
-
