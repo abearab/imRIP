@@ -2,7 +2,7 @@
 
 source: [10.1186/s13059-019-1915-9](http://dx.doi.org/10.1186/s13059-019-1915-9)
 
-However, you can simply use my `yml` file to build an stable environment:
+However, you can simply use [this `yml` file](https://github.com/abearab/imRIP/blob/main/environments/radar.yml) to build an stable environment:
 ```bash
 conda env create -f radar.yml
 ```
