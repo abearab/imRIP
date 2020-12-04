@@ -6,8 +6,8 @@ source: [10.1186/s13059-019-1915-9](http://dx.doi.org/10.1186/s13059-019-1915-9)
 ## 1. Create new environment
 As part of **imRIP** pipeline, let's use prefix to locate conda environments together. 
 ```bash
-conda create -p ~/imRIP/envs/radar
-conda activate ~/imRIP/envs/radar
+conda create -n radar
+conda activate radar
 ```
 ## 2. install dependencies
 
