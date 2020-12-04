@@ -20,9 +20,10 @@ dependencies:
   - r-rcpparmadillo=0.8.600.0.0
   - r-tidyverse=1.2.1
   - r-devtools=2.0.2
-  - ipython
+  - ipykernel
   - numpy
   - pandas
+  - libgfortran
   - pip
   - pip:
     - rpy2
