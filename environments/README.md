@@ -1,8 +1,31 @@
-# Build conda environment
-[RADAR manual](https://scottzijiezhang.github.io/RADARmanual/) has been confusing to me. Therefore, I followed another way to setup an stable conda environment to use `RADAR` package. 
+[RADAR manual](https://scottzijiezhang.github.io/RADARmanual/) is not working properly to install it while using conda! Therefore, I followed another way to setup an stable conda environment to use this package. 
 
 source: [10.1186/s13059-019-1915-9](http://dx.doi.org/10.1186/s13059-019-1915-9)
 
+However, you can simply use my `yml` file to build an stable environment:
+```
+
+```
+Then, just open R (in terminal or in Jupyter) and install [RADAR github](https://github.com/scottzijiezhang/RADAR). 
+```R
+library(devtools)
+install_github("scottzijiezhang/RADAR")
+```
+**NOTE:** When it asks to update packages within R just select `None`. 
+
+Now you can open a jupyter notebook to load RADAR in R. 
+```bash
+%load_ext rpy2.ipython
+```
+Then, use magic R to load it. 
+```bash
+%%R 
+library("RADAR")
+```
+All set! 
+
+
+<!-- 
 ## 1. Create new environment
 As part of **imRIP** pipeline, let's use prefix to locate conda environments together. 
 ```bash
@@ -37,22 +60,4 @@ We need `rpy2` to use R with Python. To my experience, `pip` works robustly to i
 pip install rpy2
 ```
 (make sure through `which pip` that you run correct pip)
-
-## 3. Install the RADAR package from Github
-Just open R (in terminal or in Jupyter) and follow [RADAR github](https://github.com/scottzijiezhang/RADAR) to install it. 
-```R
-library(devtools)
-install_github("scottzijiezhang/RADAR")
-```
-When it asks to update packages within R just select `None`. 
-
-Now you can open a jupyter notebook to load RADAR in R. 
-```bash
-%load_ext rpy2.ipython
-```
-Then, use magic R to load it. 
-```bash
-%%R 
-library("RADAR")
-```
-All set! 
+-->
