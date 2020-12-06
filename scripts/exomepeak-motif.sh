@@ -5,7 +5,7 @@ MOTIF=/rumi/shams/abe/Projects/COVID19_m6A/motifs.txt
 cd ${MAIN}/${PEAKS}
 for sam in *; do
 	cd $sam
-	# step 1: extract mRNA sequences
+	# step 1: extract mRNA sequences 
 	cat peak.bed | sort -k1,1 -k2,2n peak.bed | cgat bed2bed --method=merge --merge-by-name |  awk '! /#/' | bedtools getfasta -name -s -fi /rumi/shams/genomes/hg38/hg38.fa -bed - -split -fo peak.fa
         # step 2: prepare inputs for FIRE
 	perl $TEISERDIR/prep_seqs_for_teiser_run.pl peak.fa peaks
