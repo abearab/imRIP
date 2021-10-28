@@ -1,0 +1,13 @@
+name: cgat
+channels:
+  - defaults
+  - anaconda
+  - r
+  - bioconda
+  - conda-forge
+dependencies:
+  - cgat-apps
+  - ipykernel
+  - ushuffle
+  - biopython
+prefix: /rumi/shams/abe/anaconda3/envs/cgat
