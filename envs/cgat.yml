@@ -1,7 +1,7 @@
 name: cgat
 channels:
   - bioconda
-  - anaconda
+  - conda-forge
 dependencies:
   - cgat-apps
   - ipykernel
